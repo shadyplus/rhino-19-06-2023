@@ -1,0 +1,141 @@
+.modal {
+
+    display:    none;
+
+    position:   fixed;
+
+    z-index:    1000;
+
+    top:        0;
+
+    left:       0;
+
+    height:     100%;
+
+    width:      100%;
+
+    background: rgb(0 0 0 / 58%);
+
+}
+
+
+
+.moo{
+
+    width: 266px;
+
+    height: 76px;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin: 15px 0 0 14px;
+
+}
+
+
+
+/* When the body has the loading class, we turn
+
+   the scrollbar off with overflow:hidden */
+
+body.loading .modal {
+
+    overflow: hidden;   
+
+}
+
+
+
+/* Anytime the body has the loading class, our
+
+   modal element will be visible */
+
+body.loading .modal {
+
+    display: block;
+
+}
+
+.green{
+
+			color:green;
+
+			font-weight: 100;
+
+			    float: right;
+
+				    font-size: 18px;
+
+			}
+
+			.red{
+
+			color:white;
+
+			font-weight: 100;
+
+			    float: right;
+
+				    font-size: 18px;
+
+			}
+
+			.status{
+
+			color:white;  
+
+			font-weight: 100;
+
+		margin-left: 5px;
+
+		    font-size: 18px;
+
+				    float: right;
+
+			}
+
+			.outer button {
+
+    background-color: #7dd11a;
+
+    border: none;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-size: 20px;
+
+    padding: 15px 20px 15px 20px;
+
+    font-weight: 700;
+
+    word-wrap: break-word;
+
+    height: auto;
+
+    width: 100%;
+
+    border-radius: 3px;
+
+    background-repeat: no-repeat;
+
+    background-position: right 18px center;
+
+    text-align: left;
+
+    background-size: 45px;
+
+    cursor: pointer;
+
+    -webkit-transition: all 0.7s;
+
+    transition: all 0.7s;
+
+    border-bottom: 4px solid #538b11 !important;
+
+    margin: 10px 0px 10px 0px;
+
+}
